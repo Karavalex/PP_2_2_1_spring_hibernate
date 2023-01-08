@@ -19,7 +19,9 @@ public class User {
    @Column(name = "email")
    private String email;
 
-   public User() {}
+   public User(String user1 , String lastname1 , String s , Car zaporozjetc) {
+
+   }
    
    public User(String firstName, String lastName, String email) {
       this.firstName = firstName;
